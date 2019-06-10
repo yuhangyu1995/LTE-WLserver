@@ -1,0 +1,123 @@
+﻿{
+    "root": [
+        {
+            "authorization": "0",
+            "leaf": [
+                {
+                    "url": "/general/pages/about.html",
+                    "property": ["10001.10001002","10001.10001001","10007.10007002","10001.10001003","10001.10001004","10003.10003001","20001.20001007","10001.10001007","20001.20001001","20001.20001002","20001.20001005","20001.20001006","20001.20001003","20002.20002001","20002.20002002","10008.10008009"],
+                    "split": [
+                        {
+                            "start": "0",
+                            "end": "7",
+                            "name": "系统状态"
+                        },
+						{
+                            "start": "8",
+                            "end": "15",
+                            "name": "工作信息"
+                        }
+                    ],
+					"leafName": "工作状态"
+                },
+				{
+                    "url": "/general/pages/staticLoad.html",
+                    "property": ["10012.10012001","20044.20044001","20044.20044002","10015.10015001","10015.10015002","10015.10015003","10015.10015004","20001.20001001","20001.20001002","20001.20001003","20001.20001007","20001.20001005","20001.20001006","10013.10013001","10013.10013002","10008.10008003","10007.10007001","10008.10008006","10008.10008005","10008.10008007","10008.10008010","10003.10003001","20001.20001010","10007.10007002","20001.20001011","20001.20001012","20045.20045001","10014.10014001","10014.10014002"],
+                    "split": [
+						{
+                            "start": "0",
+                            "end": "2",
+                            "name": "网络设置"
+                        },
+						{
+                            "start": "3",
+                            "end": "6",
+                            "name": "管理设置"
+                        },
+						{
+                            "start": "7",
+                            "end": "14",
+                            "name": "系统标识设置"
+                        },
+					{
+                            "start": "15",
+                            "end": "20",
+                            "name": "SON功能设置"
+                        },
+					{
+                            "start": "21",
+                            "end": "25",
+                            "name": "射频管理"
+                        },
+					{
+                            "start": "26",
+                            "end": "26",
+                            "name": "采集检测周期"
+                        },
+					{
+                            "start": "27",
+                            "end": "28",
+                            "name": "维护管理设置"
+                        }
+					],
+					"leafName": "基本设置"
+                },
+				{
+                    "url": "/general/pages/targetImsi.html",
+                    "leafName": "目标列表"
+                },
+					{
+                     "url": "/general/pages/multiton.html",
+                     "multiId": ["20022"],
+                      "leafName": "载频业务参数"
+                 },
+                {
+					"url": "/general/pages/records.html",
+					"leafName": "采集数据"
+                },
+                {
+                    "url": "/general/pages/transfer.html",
+                    "leafName": "文件管理"
+                },
+                {
+                    "url": "/general/pages/verCtrl.html",
+                    "leafName": "固件管理"
+                },
+                {
+                    "url": "/general/pages/advance.html",
+                    "leafName": "高级设置"
+                },
+                {
+                    "url": "/general/pages/bkpRef.html",
+                    "leafName": "设置备份"
+                },
+                {
+                    "url": "/general/pages/reboot.html",
+                    "leafName": "重启系统"
+                },
+                {
+                    "url": "/general/pages/dynamicLoad.html",
+                    "leafName": "自动重启设置",
+                    "classId" : "10004" 
+                },
+                {
+                    "url": "/general/pages/alm.html",
+                    "leafName": "系统告警"
+                },
+                {
+                    "url": "/general/pages/almRcd.html",
+                    "leafName": "系统历史告警"
+                }
+            ]
+        },
+		{
+            "authorization": "-1",
+            "leaf": [
+                {
+                    "url": "/general/pages/verCtrl.html",
+                    "leafName": "固件管理"
+                }
+			]
+		}
+    ]
+}

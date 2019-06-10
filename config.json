@@ -1,0 +1,51 @@
+{
+    "db": {
+        "mysqlurl": "dev_user:test@123@tcp(2317v227e4.51mypc.cn:8099)/fake_dev?charset=utf8"
+    },
+    "udp_listen_port": {
+        "lte": "3345",
+        "gsm": "9001"
+    },
+    "ftp": {
+        "flag": false,
+        "uploadCycle": 300,
+        "serverIP": "127.0.0.1",
+        "port": "21",
+        "name": "csr",
+        "password": "password",
+        "filePath": "home/csr"
+    },
+    "http": {
+        "flag": false,
+        "uploadCycle": 5,
+        "url": "http://2317v227e4.51mypc.cn:8090"
+    },
+    "log": {
+        "logdir": "./logs/",
+        "logfilename": "logfile",
+        "loglevel": "debug",
+        "maxsaveHour": 168,
+        "rotationHour": 24
+    },
+    "savefile": {
+        "filePath": "./imsi.imei"
+    },
+    "version": {
+        "McCurrentVersion": "4MS_HSMC.1G.05.1-R",
+        "McBackupVersion": "4MS_HSMC.1G.05.0-R",
+        "GsmMobileCurrentVersion": "4MS_HSG.21.09.1",
+        "GsmUnicomCurrentVersion": "4MS_HSG.21.09.1",
+        "WcdmaCurrentVersion": "",
+        "WcdmaBackupVersion": "",
+        "TdLteCurrentVersion": "4MS_HSLT.12.37.1-R",
+        "TdLteBackupVersion": "4MS_HSLT.12.37.0-R",
+        "TdLte2300MCurrentVersion": "4MS_HSLT.12.37.1-R",
+        "TdLte2300MBackupVersion": "4MS_HSLT.12.37.0-R",
+        "TdLte2600MCurrentVersion": "",
+        "TdLte2600MBackupVersion": "",
+        "FddLteUnicomCurrentVersion": "4MS_HSLF.12.28.1-R",
+        "FddLteUnicomBackupVersion": "4MS_HSLF.12.28.0-R",
+        "FddLteTelecomCurrentVersion": "4MS_HSLF.12.28.1-R",
+        "FddLteTelecomBackupVersion": "4MS_HSLF.12.28.0-R"
+    }
+}

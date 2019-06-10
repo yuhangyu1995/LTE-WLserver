@@ -1,0 +1,65 @@
+﻿{
+    "pa_module": ["GSM", "L-TDD", "L-FDD-2100"],
+    "pa_mapping": [
+        {
+            "name": "GSM",
+            "menuName": "GSMåŠŸçŽ‡è®¾ç½®",
+            "powerSwitchCmd": "GsmPowerOnOff;",
+            "pa_function": "GET_PA_INFO_NORMAL",
+            "pa_function_cmd": "get PowerAmplifierGSMweb;get PADisplayGSM;"
+        }, {
+            "name": "L-TDD",
+            "menuName": "TDDåŠŸçŽ‡è®¾ç½®",
+            "powerSwitchCmd": "LtePowerOnOff;",
+            "pa_function": "GET_PA_INFO_NORMAL",
+            "pa_function_cmd": "get PowerAmplifierLTEweb;get PADisplayLTE;"
+        }, {
+            "name": "L-FDD-2100",
+            "menuName": "FDD2.1GåŠŸçŽ‡è®¾ç½®",
+            "powerSwitchCmd": "FddLtePowerOnOff;",
+            "pa_function": "GET_PA_INFO_NORMAL",
+            "pa_function_cmd": "get PowerAmplifierFddLTEweb;get PADisplayFddLTE;"
+        }
+    ],
+    "version_module": ["DASHBOARD", "GSM-M", "GSM-U", "L-TDD", "L-FDD-U-2100", "L-FDD-T-2100"],
+    "version_mapping": [
+        {
+            "name": "DASHBOARD",
+            "versionProperty": "McCurrentVersion"
+        }, {
+            "name": "GSM-M",
+            "versionProperty": "GsmMobileCurrentVersion"
+        }, {
+            "name": "GSM-U",
+            "versionProperty": "GsmUnicomCurrentVersion"
+        }, {
+            "name": "L-TDD",
+            "versionProperty": "TdLteCurrentVersion"
+        }, {
+            "name": "L-FDD-U-2100",
+            "versionProperty": "FddLteUnicomCurrentVersion"
+        }, {
+            "name": "L-FDD-T-2100",
+            "versionProperty": "FddLteTelecomCurrentVersion"
+        }
+    ],
+    "imsi_count_module": ["GSM-M", "GSM-U", "L-TDD", "L-FDD-U", "L-FDD-T"],
+    "imsi_count_mapping": [
+        {
+            "name": "GSM-M",
+            "scanCount": "GsmMobileScanCnt"
+        }, {
+            "name": "GSM-U",
+            "scanCount": "GsmUnicomScanCnt"
+        }, {
+            "name": "L-TDD",
+            "scanCount": "LteScanCnt"
+        }, {
+            "name": "L-FDD-U",
+            "scanCount": "FddLteUnicomScanCnt"
+        }, {
+            "name": "L-FDD-T",
+            "scanCount": "FddLteTelecomScanCnt"
+        }
+    ]
+}

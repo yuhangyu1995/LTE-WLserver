@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<earth>
+	<root level="-3">
+			<leaf url="/general/pages/about.asp" en_title="System Status" member="['601015.4301701','601018.4302003','60003.60003001','60003.60003008','60003.60003002','601018.4302004','601018.4302005','601018.4302001','601018.4302002']" title="[{p:0,n:'系统状态',en:'Status'},{p:5,n:'同步状态',en:'Status'}]">工作状态</leaf>
+			<leaf url="/general/pages/staticLoad.asp" en_title="System Configuration" mixStructID="SysConfig" structs="['601012','75307']" member="['60129.60129001','60128.60128001','601006.4300601','601006.4300602','75316.75316001','75316.75316002','752007.4600701','752006.4600601','601013.4301501','601013.4301502','752019.4601913','752019.4601905','752020.4602001','601014.4301601','752019.4601902','752019.4601903','752019.4601901','752019.4601914','752019.4601904','752023.4602302','60127.60127001','60127.60127002','60127.60127003','601011.4301129','601011.4301123','601011.4301140','601011.4301146','75317.75317001','22212.22213001','60130.60130001','60130.60130002','75318.75318001']" title="[{p:0,n:'管理设置',en:'Manager Settings'},{p:1,n:'采集检测周期',en:'CollectCheck Settings'},{p:2,n:'网络设置',en:'NetWork Settings'},{p:6,n:'寻呼与同步模式设置',en:'Params'},{p:10,n:'系统标识设置',en:'CN Settings 1'},{p:14,n:'频段与带宽指示设置',en:'FreqAndBW Settings'},{p:19,n:'特征码设置',en:'SCode Settings'},{p:23,n:'SON功能设置',en:'SON Settings'},{p:27,n:'业务模式设置',en:'TraceFunParam'},{p:28,n:'目标监控设置',en:'Ue Power'},{p:29,n:'维护管理设置',en:'Mgmt Settings'},{p:31,n:'纯4G设备类型设置',en:'MasterSlaveInd Settings'}]">基本设置</leaf>
+			<leaf url="/general/pages/multiton.asp" en_title="Plmn List" structs="['75307']">运营商设置</leaf>
+		    <leaf url="/general/pages/staticLoad.asp" en_title="RejectCause Settings" mixStructID="RejectCause" structs="['75315']" member="['75315.75315002','75315.75315003']" title="[{p:0,n:'拒绝原因设置',en:'RejectCause Settings'}]">拒绝原因设置</leaf>
+			<leaf url="/general/pages/multiton.asp" en_title="2G Neighbor Cell List" structs="['753003']">2G邻区</leaf>
+			<leaf url="/general/pages/multiton.asp" en_title="CDMA2000 Neighbor Cell List" structs="['753006']">CDMA2000邻区</leaf>
+		    <leaf url="/general/pages/multiton.asp" en_title="4G Neighbor Cell List" structs="['601017','753005']">4G邻区设置</leaf>
+		    <leaf url="/general/pages/targetImsi.asp" en_title="Target IMSI">目标列表</leaf>
+			<leaf url="/general/pages/records.asp" en_title="Terminals Infomation">采集数据</leaf>
+			<leaf url="/general/pages/monitor.asp" en_title="Ue Power">目标监控功率</leaf>
+			<leaf url="/general/pages/intSwitch.asp" en_title="Switch">内部开关</leaf>
+			<leaf url="/general/pages/verCtrl.asp" en_title="SW Maintenance">固件版本</leaf>
+			<leaf url="/general/pages/transfer.asp" en_title="File Transfer">文件传输</leaf>
+			<leaf url="/general/pages/reboot.asp" en_title="Reboot">重启系统</leaf>
+			<leaf url="/general/pages/dynamicLoad.asp" en_title="Auto Reboot" structID="601004">自动重启时间</leaf>
+	</root>
+	<root level="-2">
+	    <leaf url="/general/pages/verCtrl.asp" en_title="SW Maintenance">固件版本</leaf>
+    </root>    
+</earth>
+
